@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Canvas">
+      <UniqueIdentifier>{aec4dcf5-4387-4584-ad74-31ec01a20679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Canvas">
+      <UniqueIdentifier>{17ee570a-1b96-445c-93c0-c185a01ea81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{ab4ac3ab-5b30-4a82-899f-679823f4b6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{e2b2bed2-bd98-490a-a3da-40bcd9015318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SlotMacnine">
+      <UniqueIdentifier>{05f954e3-d3e1-4466-b976-dc781caceb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SlotMacnine">
+      <UniqueIdentifier>{0b706d41-4f6d-4a40-9584-718e504faf5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Canvas\Canvas.cpp">
+      <Filter>Source Files\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Canvas\TextureObjectManager.cpp">
+      <Filter>Source Files\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Objects\Button.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Objects\Object.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Objects\Wheel.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SlotMachine\SlotMachine.cpp">
+      <Filter>Source Files\SlotMacnine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Canvas\Canvas.h">
+      <Filter>Header Files\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Canvas\TextureObjectManager.h">
+      <Filter>Header Files\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects\Button.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects\Object.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects\Wheel.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SlotMachine\SlotMachine.h">
+      <Filter>Header Files\SlotMacnine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\selectDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\selectEna.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\startDis.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\startEna.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Wheel_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Wheel_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Wheel_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
